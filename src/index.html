@@ -2,22 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <header>
+      <nav class="nav-section">
+        <ul>
+          <li><a href="1-gallery.html">Галерея</a></li>
+          <li><a href="2-form.html">Форма</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
+    <!-- <ul class="gallery"></ul> -->
 
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <!-- <script src="./js/1-gallery.js" type="module"></script>
+    <script src="./js/2-form.js" type="module"></script> -->
   </body>
 </html>
