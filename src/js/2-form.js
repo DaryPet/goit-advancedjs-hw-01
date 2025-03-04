@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 form.addEventListener('input', e => {
-  formData[e.target.name] = e.target.value;
+  formData[e.target.name] = e.target.value.trim();
   localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 });
 

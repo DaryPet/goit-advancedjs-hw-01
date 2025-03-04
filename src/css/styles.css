@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+/* test */
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
@@ -19,7 +20,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.nav-section {
-  justify-content: center;
-  align-items: center;
+
+header {
+  margin: 60px auto;
 }
