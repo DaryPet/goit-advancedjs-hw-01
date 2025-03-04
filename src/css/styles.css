@@ -22,3 +22,7 @@ ul {
 header {
   margin: 60px auto;
 }
+.nav-section {
+  display: flex;
+  gap: 20px;
+}
