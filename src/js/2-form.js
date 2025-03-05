@@ -33,6 +33,9 @@ form.addEventListener('submit', e => {
 
   console.log('Форма відправлена:', formData);
 
+  formData.email = '';
+  formData.message = '';
+
   form.reset();
   localStorage.removeItem('feedback-form-state');
 });
